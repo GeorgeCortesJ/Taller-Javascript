@@ -1,0 +1,102 @@
+/* Reset básico */
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    background-color: #fdf6e3;
+    color: #6b4226;
+    line-height: 1.6;
+}
+
+/* Estilo del encabezado */
+header {
+    text-align: center;
+    background-color: #d9b382;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+/* Sección de bienvenida */
+.bienvenida {
+    text-align: center;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 10px;
+    background-color: #fbe9d7;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Sección de especialidades */
+/* Estilo para la sección de especialidades */
+.especialidades {
+    padding: 20px;
+    text-align: center;
+}
+
+.especialidades h2 {
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    color: #6b4226;
+}
+
+/* Contenedor de las cards */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Cada card */
+.card {
+    background-color: #fbe9d7;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Imagen de cada card */
+.card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* Título del producto */
+.card h3 {
+    margin: 10px 0;
+    font-size: 1.5rem;
+    color: #6b4226;
+}
+
+/* Descripción del producto */
+.card p {
+    font-size: 1rem;
+    color: #856046;
+}
+
+
+/* Pie de página */
+footer {
+    text-align: center;
+    background-color: #d9b382;
+    color: white;
+    padding: 10px;
+    font-size: 0.9rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

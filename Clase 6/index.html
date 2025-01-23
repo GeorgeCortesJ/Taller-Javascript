@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 6 - Parqueo de autos</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <h1>Parqueo de autos 24h</h1>
+    <div class="contenedor">
+        <form id="entrada">
+            <label for="placa">Ingrese la placa del auto:</label>
+            <input type="text" id="placa" required>
+            <button type="submit">Parquear</button>
+        </form>
+        <form id="salida">
+            <label for="placa-salida">Ingrese la placa del auto:</label>
+            <input type="text" id="placa-salida" required>
+            <button type="submit">Salir</button>
+        </form>
+    </div>
+    <div class="parqueo" id="parqueo"></div>
+
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+*{
+    text-align: center;
+}
+body{
+    background-image: url('/img/d9b9c6935ce4a5025e4fd5ac37b5c3bc.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.contenedor{
+    background-color: rgba(255, 255, 255, 0.263);
+    backdrop-filter: blur(5px);
+    padding: 0.5em;
+    margin-top: 2em;
+    width: 60%;
+    color: white;
+    box-shadow: 1em 1em 2em rgb(10, 25, 36);
+}
+
+textarea{
+    margin-top: 1em;
+    width: 500px;
+    height: 200px;
+}
