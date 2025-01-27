@@ -7,6 +7,7 @@ formProducto.addEventListener("submit", (event) => {
     //Obtener los valores detro del form
     const nombre = document.getElementById("nombreProducto").value.trim();
     const precio = document.getElementById("precioProducto").value.trim();
+    const cantidad = document.getElementById("cantidadProducto").value.trim();
     const categoria = document.getElementById("categoriaProducto").value.trim();
 
     //Obtener los productos almacenados en el local Storage
@@ -20,7 +21,7 @@ formProducto.addEventListener("submit", (event) => {
     }
 
     // Objeto Producto
-    const producto = { nombre, precio, categoria }
+    const producto = { nombre, precio, cantidad, categoria }
 
     //Agregamos el objeto al almacenamiento
     productos.push(producto);
