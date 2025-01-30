@@ -2,20 +2,15 @@
 Curso de Javascript
 
 
-## Metas para la clase 8
-- Arreglar un error que no permite que se rendericen los 
-productos agregados en el catálogo. ✔
+## Metas para la clase 9
+- Verificar que no se agreguen Productos vacios. ✔
 
-- Agregar botones de modificar y eliminar para cada uno de los productos. ✔
+- Poder almacenar correctamente la categoria del producto. ✔
+    (Ya que solamente almacena la posicion en la lista donde esta la categoria). 
 
-- Darle funcionalidad a estos botones, con las correspondientes validaciones. ✔
-
-- Agregar un espacio o dato más al Producto que se llame cantidad.
-Esta misma se indica cuando el producto es agregado. ✔
-
-- Organizar los productos en el catálogo para que se muestren por categoría. 
+- Organizar los productos en el catálogo para que se muestren por categoría. ✔
     
     * Para realizar esto primero indicar una lista de las posibles categorías
         en el momento de agregar el producto. ✔
 
-    * Sacar el valor de texto de la opción. 
+    * Sacar el valor de texto de la opción. ✔
