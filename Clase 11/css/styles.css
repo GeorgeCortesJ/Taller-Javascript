@@ -1,0 +1,11 @@
+body {
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+.indexMain {
+    height: 400px;
+    text-align: center;
+    padding-top: 10%;
+}
